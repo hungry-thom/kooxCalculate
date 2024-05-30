@@ -29,13 +29,13 @@ export default {
       return _.round((this.total * 0.0025), 2)
     },
     salt () {
-      return _.round((this.total * 0.025), 2)
+      return _.round((this.total * 0.0275), 2)
     },
     pepper () {
-      return _.round((this.total * 0.00125), 2)
+      return _.round((this.total * 0.0015), 2)
     },
     coriander () {
-      return _.round((this.total * 0.00636), 2)
+      return _.round((this.total * 0.0075), 2)
     },
     sugar () {
       return _.round((this.total * 0.0125), 2)

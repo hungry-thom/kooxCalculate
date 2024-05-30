@@ -46,7 +46,7 @@ export default {
       return _.round((this.total * 0.0006), 2)
     },
     vinegar () {
-      return _.round((this.total * 0.4), 2)
+      return _.round((this.total * 0.04), 2)
     }
   },
   methods: {
